@@ -1,0 +1,23 @@
+{
+    "name": "codingfor/imagehost-module",
+    "description": "Codingfor G7 image hosting module",
+    "type": "library",
+    "version": "0.4.1",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Modules\\Codingfor\\Imagehost\\": "src/",
+            "Modules\\Codingfor\\Imagehost\\Database\\Seeders\\": "database/seeders/",
+            "Modules\\Codingfor\\Imagehost\\Database\\Factories\\": "database/factories/",
+            "Modules\\Codingfor\\Imagehost\\Upgrades\\": "upgrades/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Codingfor\\Imagehost\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.2"
+    }
+}

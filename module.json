@@ -1,0 +1,20 @@
+{
+    "identifier": "codingfor-imagehost",
+    "vendor": "codingfor",
+    "name": {
+        "ko": "이미지 호스팅",
+        "en": "Image Host"
+    },
+    "version": "0.4.1",
+    "license": "MIT",
+    "description": {
+        "ko": "대량 이미지를 WebP로 변환해 외부 Embed를 제공하는 이미지 호스팅 모듈",
+        "en": "Image hosting module that converts bulk image uploads to embeddable WebP assets"
+    },
+    "g7_version": ">=7.0.0",
+    "hidden": false,
+    "dependencies": {
+        "modules": {},
+        "plugins": {}
+    }
+}

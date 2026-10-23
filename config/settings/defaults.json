@@ -1,0 +1,60 @@
+{
+    "max_file_size_mb": 50,
+    "daily_upload_limit": 200,
+    "display_width": 2560,
+    "thumb_width": 640,
+    "quality": 82,
+    "cache_ttl": 86400,
+    "frontend_schema": {
+        "fields": [
+            {
+                "key": "max_file_size_mb",
+                "type": "number",
+                "label": { "ko": "최대 파일 크기(MB)", "en": "Maximum file size (MB)" },
+                "min": 1,
+                "max": 50,
+                "default": 50
+            },
+            {
+                "key": "daily_upload_limit",
+                "type": "number",
+                "label": { "ko": "사용자 일일 업로드 수", "en": "Daily uploads per user" },
+                "min": 1,
+                "max": 10000,
+                "default": 200
+            },
+            {
+                "key": "display_width",
+                "type": "number",
+                "label": { "ko": "본문 최대 긴 변(px)", "en": "Maximum display edge (px)" },
+                "min": 320,
+                "max": 2560,
+                "default": 2560
+            },
+            {
+                "key": "thumb_width",
+                "type": "number",
+                "label": { "ko": "썸네일 최대 긴 변(px)", "en": "Maximum thumbnail edge (px)" },
+                "min": 160,
+                "max": 640,
+                "default": 640
+            },
+            {
+                "key": "quality",
+                "type": "number",
+                "label": { "ko": "WebP 품질", "en": "WebP quality" },
+                "min": 60,
+                "max": 95,
+                "default": 82
+            },
+            {
+                "key": "cache_ttl",
+                "type": "number",
+                "label": { "ko": "이미지 캐시 시간(초)", "en": "Image cache TTL (seconds)" },
+                "min": 3600,
+                "max": 31536000,
+                "default": 86400
+            }
+        ]
+    }
+}

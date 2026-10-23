@@ -1,0 +1,30 @@
+{
+    "messages": {
+        "upload_success": "이미지를 업로드했습니다.",
+        "list_success": "이미지 목록을 불러왔습니다.",
+        "status_success": "이미지 상태를 불러왔습니다.",
+        "delete_success": "이미지를 삭제했습니다.",
+        "not_found": "이미지를 찾을 수 없습니다.",
+        "delete_forbidden": "이 이미지를 삭제할 권한이 없습니다.",
+        "processing": "이미지를 변환하고 있습니다.",
+        "ready": "이미지를 사용할 수 있습니다.",
+        "failed": "이미지 변환에 실패했습니다.",
+        "daily_limit": "오늘 업로드할 수 있는 이미지 수를 초과했습니다.",
+        "conversion_unavailable": "이미지 변환 도구가 서버에 설치되지 않았습니다.",
+        "login_required_for_large_image": "초고해상도 이미지는 로그인 후 업로드할 수 있습니다.",
+        "image_resolution_too_large": "이미지 해상도가 허용 범위를 초과했습니다.",
+        "upload_session_started": "대용량 업로드 세션을 시작했습니다.",
+        "chunk_received": "업로드 조각을 받았습니다.",
+        "upload_queued": "미디어 변환을 시작했습니다.",
+        "upload_session_closed": "업로드 세션이 종료되었습니다."
+    },
+    "validation": {
+        "file_required": "이미지 파일을 선택해 주세요.",
+        "file_invalid": "유효한 이미지 파일이 아닙니다.",
+        "file_mimes": "JPG, PNG, WebP 파일만 업로드할 수 있습니다.",
+        "file_max": "이미지 파일은 최대 :maxMB MB까지 업로드할 수 있습니다.",
+        "chunk_count_invalid": "대용량 업로드 조각 수가 올바르지 않습니다.",
+        "chunk_order_invalid": "업로드 조각 순서가 올바르지 않습니다.",
+        "upload_incomplete": "업로드가 아직 완료되지 않았습니다."
+    }
+}
